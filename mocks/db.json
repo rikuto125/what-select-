@@ -1,0 +1,32 @@
+{
+  "data" :
+    [
+      {
+        "pre_shift_list_id": 68,
+        "pic_id": 1,
+        "pic_name": "string1",
+        "date": "2023-01-21",
+        "time": "09:00",
+        "am_flag": true,
+        "pm_flag": false
+        },
+      {
+        "pre_shift_list_id": 70,
+        "pic_id": 2,
+        "pic_name": "string2",
+        "date": "2023-01-21",
+        "time": "09:00",
+        "am_flag": true,
+        "pm_flag": false
+        },
+        {
+        "pre_shift_list_id": 71,
+        "pic_id": 3,
+        "pic_name": "string3",
+        "date": "2023-01-21",
+        "time": "09:00",
+        "am_flag": false,
+        "pm_flag": true
+        }
+    ]
+}
