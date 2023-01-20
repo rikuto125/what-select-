@@ -28,7 +28,7 @@ export const Test = (props: {
 
     return (
         <>
-            <Select2 data={onShift} defaultValue={props.data} onChange={(event:number) => {
+            <Select2 data={onShift} defaultValue={props.data as number} onChange={(event:number) => {
                 console.log(event)
             }}/>
         </>
@@ -36,5 +36,3 @@ export const Test = (props: {
 }
 
 export default memo(Test);
-
-//json server　起動　json-server --watch db.json --port 3000

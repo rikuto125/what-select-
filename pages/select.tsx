@@ -20,7 +20,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import {Select2} from "../compoents/atoms/select";
-import Select from "../compoents/organisms/select";
+import Select, {Test} from "../compoents/organisms/select";
 import {NextRouter, useRouter} from "next/router";
 
 const inter = Inter({ subsets: ['latin'] })
@@ -29,7 +29,7 @@ export default function Home() {
     console.log("router",router.query.pic_id)
     return (
         <>
-           <Select
+           <Test
                data={Number(router.query.pic_id)}
               />
         </>
